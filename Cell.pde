@@ -6,7 +6,7 @@ class Cell implements Drawable {
   boolean clicked;
   Player player;
   
-  public Cell(int x,int y, Point c) {
+  public Cell(int x,int y, MyPoint c) {
     this.x = x;
     this.y = y;
     this.coordinate = c;
