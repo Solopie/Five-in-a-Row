@@ -21,4 +21,5 @@
     - Refactor code to use Point class
     - Cell class needs to be able to retrieve surrounding cells (use coordinates)
         - Create cell dict when initialising cells to call cells
+            - Make Grid into a Singleton (errors)
 - End game sequence

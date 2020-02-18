@@ -7,7 +7,7 @@ GameController gc = new GameController(players);
 
 void setup() {
   size(500,600);
-  grid = new Grid(0,0,500,500);
+  grid = Grid.getInstance();
 }
 
 

@@ -40,7 +40,7 @@ class GameController {
     ArrayList<Cell> B_T = new ArrayList<Cell>();
     ArrayList<Cell> BR_TL = new ArrayList<Cell>();
     
-    BL_TR.add()
+    // BL_TR.add()
     
     
     return false;

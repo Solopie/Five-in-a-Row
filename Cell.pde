@@ -1,13 +1,15 @@
 class Cell implements Drawable {
   public static final int SIZE = 50;
   int x,y;
+  Point coordinate;
   // player variable should be initialised when clicked
   boolean clicked;
   Player player;
   
-  public Cell(int x,int y) {
+  public Cell(int x,int y, Point c) {
     this.x = x;
     this.y = y;
+    this.coordinate = c;
     this.clicked = false;
   }
   
@@ -48,7 +50,7 @@ class Cell implements Drawable {
     
   */
   public Cell getTL(){ 
-    return 
+    return Grid.getInstance().cellDict.get(new Point(coordinate.x-1,coordinate.y-1));
   }
     
   
