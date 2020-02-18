@@ -27,6 +27,11 @@ void mouseClicked() {
     return;
   } else {
     clickedCell.setPlayer(gc.getCurrentPlayer());
-    gc.nextTurn();
+    if(gc.checkCurrentPlayerWin(clickedCell)) {
+      gc.endGame();
+    } else {
+      gc.nextTurn();
+    }
+    
   }
 }

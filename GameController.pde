@@ -20,12 +20,7 @@ class GameController {
   }
   
   public void nextTurn() {
-    // Check if current player won (TODO)
-    if(checkCurrentPlayerWin()) {
-      endGame();
-    } else {
-      setCurrentPlayer(++curPlayerID);
-    }
+    setCurrentPlayer(++curPlayerID);
   }
   
   /*
@@ -33,7 +28,21 @@ class GameController {
   
   Algorithm to iterate surroundings cells to identify win.
   */
-  public boolean checkCurrentPlayerWin() {
+  public boolean checkCurrentPlayerWin(Cell clickedCell) {
+    // Get the cells surrounding clicked cell
+    
+    /*
+    TL  T  TR
+    L   M  R
+    BL  B  BR    
+    */
+    ArrayList<Cell> BL_TR = new ArrayList<Cell>();
+    ArrayList<Cell> B_T = new ArrayList<Cell>();
+    ArrayList<Cell> BR_TL = new ArrayList<Cell>();
+    
+    BL_TR.add()
+    
+    
     return false;
   }
   

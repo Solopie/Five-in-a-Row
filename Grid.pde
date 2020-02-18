@@ -1,5 +1,6 @@
 class Grid implements Drawable {
   int x,y,rows,cols;
+  HashMap<Point, Cell> cellDict = new HashMap<>();
   
   Cell[][] cells;
   

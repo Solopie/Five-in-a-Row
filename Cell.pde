@@ -30,6 +30,26 @@ class Cell implements Drawable {
     // To assure playerID is set when we click we set clicked in this method
     clicked = true;
   }
+  
+  public Player getPlayer() {
+    return player;
+  }
+  
+  /*
+  T - Top
+  B - Bottom
+  M - Middle
+  L - Left
+  R - Right
+  
+  TL  T  TR
+  L   M  R
+  BL  B  BR    
+    
+  */
+  public Cell getTL(){ 
+    return 
+  }
     
   
   

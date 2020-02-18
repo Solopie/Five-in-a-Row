@@ -18,4 +18,7 @@
 ## To do
 
 - Check if current player wins
+    - Refactor code to use Point class
+    - Cell class needs to be able to retrieve surrounding cells (use coordinates)
+        - Create cell dict when initialising cells to call cells
 - End game sequence
