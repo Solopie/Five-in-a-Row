@@ -3,6 +3,7 @@ PlayerOne p1 = new PlayerOne();
 PlayerTwo p2 = new PlayerTwo();
 Player[] players = {p1,p2};
 GameController gc = new GameController(players);
+Cell test = new Cell(10,10, new MyPoint(10,10));
 
 
 void setup() {
@@ -15,7 +16,6 @@ void draw() {
   background(255);
   
   grid.drawComponent();
-  
   
 }
 

@@ -23,3 +23,5 @@
         - Create cell dict when initialising cells to call cells
             - Make Grid into a Singleton (errors)
 - End game sequence
+- Port processing files to java files
+    - Getting weird errors with missing Type. (Probably because of static inner class)
